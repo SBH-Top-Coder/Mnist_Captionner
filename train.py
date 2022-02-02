@@ -41,7 +41,7 @@ def train():
     num_epochs = 100
 
     # for tensorboard
-    writer = SummaryWriter("runs/flickr")
+    #writer = SummaryWriter("runs/flickr")
     step = 0
 
     # initialize model, loss etc
