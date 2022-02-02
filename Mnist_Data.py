@@ -22,7 +22,7 @@ for i in range (num_images):
 
 f = gzip.open('/home/semi/Machine_Learning/train-labels-idx1-ubyte.gz','r')
 f.read(8)
-LINES = []
+LINES = ['image,caption\n']
 for i in range(num_images):   
     buf = f.read(1)
     labels = np.frombuffer(buf, dtype=np.uint8).astype(np.int64)
