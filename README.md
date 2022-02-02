@@ -1,5 +1,6 @@
 # Mnist_Captionner
 DONT FORGET TO CHANGE THE PATHS TO BE ADAPTED ON THE PATHS OF YOUR PC 
+
 1/ Open Vscode 
 
 2/ Create a new virtual environnement :  python3 -m venv Name_of_environnement --without-pip --system-site-packages and 
